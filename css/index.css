@@ -1,0 +1,10 @@
+*{padding:0;margin:0;}
+ul {list-style:none;}
+a {text-decoration:none;display:block;cursor: pointer;color: #ccc;}
+html{width: 100%;height: 100%;}
+
+.main{width:100%; height:100%;position: absolute;overflow: hidden;}
+.bg{width:100%; height:100%;position: absolute;}
+img{display:block; border:none;width: 100%;}
+.wel{position: absolute;left:40%;top:40%;width: 20%;height:20%;border: 2px solid #ccc;}
+.wel a{display: block;border: 1px solid #ccc;text-align: center;margin:15%;padding: .2vw;font-size:3.5vw;}
