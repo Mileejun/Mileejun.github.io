@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:微软雅黑;
+    color: #999;
+}
+a{
+    text-decoration: none;
+}
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width:100%;
+    height:100%;
+    background:url(../images/13.jpg);
+    background-size: cover;
+}
+.login{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.container{
+    width: 370px;
+    /*margin: 30px auto 0;*/
+    position: absolute;
+    top:50px;
+    left:36%;
+}
+.logo{
+    width:75px;
+    height:90px;
+    background:url(../images/logo-new.png);
+    margin:0 auto;
+}
+.contain{
+    background: #fff;
+    width: 370px;
+    height: 290px;
+    margin: 0 auto;
+    border-radius:8px;
+    padding: 30px 0;
+}
+form{
+    color:#666;
+    text-align: center;
+    border-bottom:1px solid #ebebeb;
+    padding-bottom:20px;
+}
+form label{
+    line-height: 32px;
+    margin: 5px 0;
+    width:25px;
+}
+form input{
+    line-height: 25px;
+    width: 280px;
+    padding:5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    outline: none;
+    -webkit-transition:1s .1s;
+
+}
+input:focus{
+    border: 1px solid #ffa200;
+    box-shadow: 0 0 5px #ffa200;
+    -webkit-transition:all 1s;
+}
+form a{
+    color: #ffa800;
+    display: block;
+    margin-left:224px;
+    font-size:14px;
+}
+form button{
+    width: 300px;
+    line-height: 42px;
+    border-radius: 8px;
+    background: #ffa800;
+    color:#fff;
+    border:none;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight:bold;
+}
+form button:hover{
+    background: #ffb01e;
+}
+span{
+    display: none;
+    width: 200px;
+    height:30px;
+    margin-left: 60px;
+}
+.content{
+    margin:10px 43px;
+    font-size:14px;
+    width:400px;
+}
+.content p{
+    margin:4px 0;
+}
+.content a{
+    display: inline-block;
+    text-align: center;
+    margin-right:32px;
+}
+.content i{
+    display: block;
+    margin:5px 0;
+    width:42px;
+    height:42px;
+}
+.content a:hover p{
+    color: #666;
+}
+.i1{
+    background:url(../images/c_icon3.gif);
+}
+.i1:hover{
+    background:url(../images/c_icon3.gif) 0 -42px;
+}
+.i2{
+    background:url(../images/c_icon3.gif) -42px 0;
+}
+.i2:hover{
+    background:url(../images/c_icon3.gif) -42px -42px;
+}
+.i3{
+    background:url(../images/c_icon3.gif) -294px 0;
+}
+.i3:hover{
+    background:url(../images/c_icon3.gif) -294px -42px;
+}
+.i4{
+    background:url(../images/c_icon3.gif) -84px 0;
+}
+.i4:hover{
+    background:url(../images/c_icon3.gif) -84px -42px;
+}
+

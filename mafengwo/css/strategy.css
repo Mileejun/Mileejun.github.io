@@ -1,0 +1,378 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:微软雅黑;
+    color: #666;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width:1000px;
+    height:68px;
+    margin:0 auto;
+    line-height:68px;
+}
+header ul{
+    margin-left:20px;
+    overflow:hidden;
+    display:inline-block;
+}
+header ul li{
+    line-height:68px;
+    float:left;
+}
+.choose{
+    background:#ff9d00;
+}
+header li a{
+    padding:0 16px;
+    color:#333;
+}
+header li a:hover{
+    color:#ff8a00;
+}
+.choose a{
+    color: #fff;
+}
+.choose a:hover{
+    color: #fff;
+}
+.logo{
+    width:136px;
+    height:39px;
+    background:url(../images/header-sprites11.png);
+    margin:15px 0;
+    display:inline-block;
+}
+header img{
+    width:64px;
+    height:45px;
+    margin-bottom:10px;
+}
+header span{
+    display:inline-block;
+    width:26px;
+    height:26px;
+}
+header > a{
+    color:#ff8a00;
+    float:right;
+    margin:0 5px;
+}
+header > a:hover{
+    color:#ccc;
+    text-decoration:underline;
+}
+.i1{
+
+    background-image:url(../images/header-sprites11.png);
+    background-position:0 -50px;
+    margin-bottom:20px;
+}
+.i1:hover{
+    background-image:url(../images/header-sprites11.png);
+    background-position:0px -80px;
+}
+.i2{
+
+    background-image:url(../images/header-sprites11.png);
+    background-position:-30px -50px;
+    margin-bottom:20px;
+}
+.i2:hover{
+    background-image:url(../images/header-sprites11.png);
+    background-position:-30px -80px;
+}
+.i3{
+
+    background-image:url(../images/header-sprites11.png);
+    background-position:0 -165px;
+    margin-bottom:20px;
+}
+.i3:hover{
+    background-image:url(../images/header-sprites11.png);
+    background-position:-30px -165px;
+}
+.shadow{
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid #d6d6d6;
+    background-color: rgba(0,0,0,.06);
+}
+/*头部*/
+article{
+    width:1000px;
+    height:340px;
+    margin:10px auto;
+}
+/*头部左侧*/
+nav{
+    width:260px;
+    height:299px;
+    float: left;
+}
+nav ul{
+    width:260px;
+    height:165px;
+}
+nav ul li{
+    width:228px;
+    height:40px;
+    line-height:40px;
+    padding:0 15px;
+    border:1px solid #ddd;
+    color: #666;
+    font-size:14px;
+    cursor: default;
+}
+nav li:hover span{
+    color: #ff8a00;
+}
+.search{
+    width:256px;
+    height:44px;
+    border:2px solid  #FFA800;
+    margin-top:10px;
+}
+.search i{
+    width:29px;
+    height:27px;
+    margin:10px 0 -9px 10px;
+    display: inline-block;
+    background:url(../images/new-gl-icon6.png) -20px -60px no-repeat;
+}
+.search input{
+    height:30px;
+    width:206px;
+    border:none;
+    outline:none;
+    font-size:12px;
+    color: #888;
+}
+.app{
+    height:50px;
+    padding-bottom:14px;
+    margin-top:15px;
+    border-bottom: 1px solid #E3E3E3;
+}
+.app img{
+    width:50px;
+    height:50px;
+    float: left;
+    margin-right:20px;
+}
+.app h3{
+    font-size:16px;
+    line-height:25px;
+}
+.app a{
+    color: #ff9d00;
+}
+.app a:hover{
+    color: #ff8d00;
+    text-decoration: underline;
+}
+.app p{
+    font-size: 12px;
+    line-height:22px;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{
+    clear:both;
+    content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+/*头部右侧*/
+aside{
+    float: right;
+    width:700px;
+    height:340px;
+}
+
+/*中部*/
+.guanggao{
+    width:1000px;
+    display: block;
+    margin:0 auto;
+}
+.container{
+    width:1000px;
+    margin:20px auto;
+}
+.container h4{
+    font-weight:normal;
+    padding:20px 0;
+    border-bottom: 1px solid #E3E3E3;
+}
+.list{
+    width:160px;
+    height:870px;
+    float: left;
+}
+.list ul:nth-child(2){
+    border-bottom: 1px solid #E3E3E3;
+}
+.list ul:nth-child(2) li{
+    float: left;
+    margin:10px 21px 10px 0;
+}
+.rank{
+    margin-top:20px;
+    width:130px;
+}
+.rank li:first-child{
+    border-top: 0;
+    padding:0;
+}
+.rank li{
+    border-top: 1px solid #f7f7f7;
+    line-height:24px;
+    padding:15px 0;
+    margin:20px 0;
+}
+.rank span{
+    color: #ff9d00;
+    font-size:18px;
+    float:left;
+    margin-right:10px;
+}
+.rank a{
+    float: left;
+    font-size:14px;
+}
+.rank a:hover{
+    color: #ff8a00;
+}
+.rank img{
+    display: block;
+}
+.rank p{
+    margin:5px 0;
+    font-size:12px;
+    text-align: center;
+}
+.download{
+    width:130px;
+    height:24px;
+    background: #ebebeb;
+    border-radius:30px;
+}
+.download i{
+    display: inline-block;
+    height:24px;
+    width:24px;
+    background: url(../images/new-gl-icon6.png) -20px -90px no-repeat;
+}
+.download p{
+    margin-top:-29px;
+    margin-left:20px;
+}
+
+/*主体右侧*/
+.content{
+    width:790px;
+    height:1000px;
+    float: right;
+
+}
+section{
+    width:790px;
+    height:221px;
+    padding:20px 0;
+    border-top:1px solid #e5e5e5;
+    margin-bottom:20px;
+}
+.bar{
+    width:790px;
+    height:32px;
+}
+.zan{
+    width:105px;
+    height:32px;
+    border:1px solid #ff9d00;
+    border-radius:15px;
+    float: right;
+    line-height:32px;
+    padding:0 15px;
+    font-size:14px;
+}
+.zan span{
+    color:#ff9d00;
+    float: left;
+    margin-right:3px;
+}
+.zan i{
+    width:15px;
+    height:15px;
+    display: inline-block;
+    vertical-align: -2px;
+    margin-left:8px;
+    background: url(../images/new-gl-icon6.png) no-repeat -40px -40px;
+}
+section h3{
+    margin-bottom:15px;
+}
+.art img{
+    float: left;
+}
+.info{
+
+}
+.art p{
+    width:550px;
+    height:102px;
+    padding-top:10px;
+    margin-bottom:16px;
+    line-height:24px;
+    font-size:14px;
+    float: right;
+}
+
+.art span{
+    padding:3px 15px;
+    background: #f6f6f6;
+    margin-left:19px;
+    margin-right:-9px;
+    border:1px solid #e5e5e5;
+    border-radius:10px;
+    font-size:12px;
+}
+.art font{
+    margin-left:100px;
+    font-size:12px;
+    color:#999;
+}
+section:hover{
+    background: #f8f8f8;
+    border-color:#f8f8f8;
+    padding: 21px 15px 20px;
+    margin: -1px -15px 20px;
+
+}
+section:hover h3{
+    color: #ff8a00;
+}
+footer{
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+    background: #3c3c3c;
+    color: #c2c2c2;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    padding-top:20px;
+}
+footer p{
+    line-height:35px;
+}

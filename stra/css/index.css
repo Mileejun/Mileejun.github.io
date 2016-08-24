@@ -1,0 +1,330 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 微软雅黑;
+}
+ul{
+	list-style: none;
+	overflow: hidden;
+}
+ul li{
+	float: left;
+	margin: 0 10px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+header{
+	width: 94%;
+	height: 84px;
+	line-height: 84px;
+	background: #fff;
+	opacity: 0.8;
+	padding: 0 3%;
+	overflow: hidden;
+	font-size: 1vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+}
+
+.nav{
+	width: 628px;
+	padding: 0 358px;
+	height: 192px;
+	margin: 20px auto;
+	background: red;
+	/*display: none;*/
+	z-index: 100;
+	position: absolute;
+	top: 84px;
+	left: 0;
+}
+
+header a:hover{
+	color: #ccc;
+}
+header li:hover .nav{
+	display: block;
+}
+
+
+.logo{
+	width: 176px;
+	float: left;
+	line-height: 84px;
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 10px;
+}
+
+.container{
+	width: 100%;
+	margin-bottom: 84px;
+	/*text-align: center;*/
+}
+.focus{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.container > h1{
+	width: 306px;
+
+	margin:20px auto;
+	padding: 10px 0;
+	border:2px solid lightblue;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+}
+.fcd{
+	display: block;
+	margin:0 auto;
+	width: 1000px; 
+}
+
+.new{
+	margin:0 auto;
+	width: 1200px;
+	overflow: hidden;
+}
+.new1{
+	width: 800px;
+	float: left;
+}
+.new2{
+	width: 354px;
+	float: right;
+}
+.new3{
+	width: 100%;
+	margin-top: 40px;
+	position: relative;
+}
+.new3 img{
+	width: 100%;
+}
+.new3 h2{
+	font-size: 5vw;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+.hp{
+	width: 1000px;
+	margin:0 auto; 
+	position: relative;
+}
+.hp img{
+	width: 300px;
+	margin:0 15px; 
+}
+.hp h2{
+	color: #fff;
+	position: absolute;
+}
+.hp h2:nth-child(1){
+	top: 150px;
+	left: 138px;
+}
+.hp h2:nth-child(3){
+	top: 150px;
+	left: 485px;
+}
+.hp h2:nth-child(5){
+	top: 150px;
+	left: 828px;
+}
+
+
+.buttons{
+	margin: 20px auto;
+	width: 375px;
+	overflow: hidden;
+	text-align: center;
+}
+.buttons li{
+	display: inline;
+	margin: 20px 10px;
+}
+.buttons li a{
+	display: inline-block;
+	padding: 0 10px;
+	border: 1px solid #000;
+	line-height: 32px;
+}
+
+/*.buttons li:hover a,li a.selected{background: #e42382;border: 1px solid #e42382;color: #fff;}*/
+.buttons li:hover a,li a.selected{
+	background: lightblue;
+	border: 1px solid lightblue;
+	color: #fff;
+}
+
+.pics{
+	text-align: center;
+	overflow: hidden;
+	width:100%;
+	margin: 0 auto;
+}
+figure{
+	position: relative;
+	width: 24.2%;
+	overflow: hidden;
+	float: left;
+	color:#fff;
+	height: 224px;
+	display: inline-block;
+	margin: 0.5% 0.3%;
+}
+figcaption{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+figcaption h1{
+	font-size: 25px;
+	font-weight: 300;
+	text-shadow:0,0,20px #000;
+	margin-top: 30%;
+}
+
+figure img{
+	width:100%;
+}
+
+figure:hover figcaption{ 
+	display: block;
+	background: rgba(0,0,0,.3);
+}
+figure:hover img{
+	transform:scale(1.2,1.2);
+}
+
+.container p{
+	text-align: center;
+	width: 1000px;
+	font-size: 12px;
+	margin: 50px auto;
+	color: #999;
+}
+.connect{
+	width: 100%;
+	height: 500px;
+	background: lightblue;
+	padding-top: 20px;
+}
+.connect section{
+	width: 1000px;
+	height: 399px;
+	margin: 20px auto;
+}
+.connect section h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+section > div{
+	padding: 0 15px;
+	float: left;
+	text-align: center;
+}
+section div h1{
+	margin:20px 0;
+}
+.c1{
+	width: 142px;
+	height: 208px;
+}
+.c2{
+	width: 300px;
+	height: 314px;
+}
+.c2 img{
+	width: 100%;
+}
+.c3{
+	width: 206px;
+	height: 353px;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+.c3 img{
+	width: 190px;
+	border-radius: 50%;
+	margin-bottom:20px; 
+}
+.c4{
+	width: 230px;
+	height: 261px;
+}
+.c4 h3{
+	margin:20px 0; 
+}
+.c41{
+	border-bottom: 1px solid #000;
+	height: 133px;
+}
+.c41 a{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin:16px; 
+	background: url("../images/app.svg");
+	background-size: 100% auto;
+	text-align: center;
+}
+.c41 a:nth-child(2) span{
+	display: block;
+	margin: 40px 0 0 0;
+}
+.c41 a:nth-child(3) span{
+	display: block;
+	margin: 40px 0 0 -18px;
+}
+.c42{
+	height: 68px;
+}
+
+.back{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	background:transparent url("../images/sprite.png") no-repeat 33.77% 35.385%;
+}
+.back:hover{
+	background-position: 42.131% 35.385%;
+}
+footer{
+	width: 94%;
+	padding: 0 3%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	background: #fff;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer ul:nth-child(1){
+	float: left;
+}
+footer ul:nth-child(2){
+	float: right;
+}
+footer a:hover{
+	color: #ccc;
+}
+

@@ -1,0 +1,248 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:微软雅黑;
+    color: #666;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    width:1000px;
+    height:68px;
+    margin:0 auto;
+    line-height:68px;
+}
+header ul{
+    margin-left:20px;
+    overflow:hidden;
+    display:inline-block;
+}
+header ul li{
+    line-height:68px;
+    float:left;
+}
+.choose{
+    background:#ff9d00;
+}
+header li a{
+    padding:0 16px;
+    color:#333;
+}
+header li a:hover{
+    color:#ff8a00;
+}
+.choose a{
+    color: #fff;
+}
+.choose a:hover{
+    color: #fff;
+}
+.logo{
+    width:136px;
+    height:39px;
+    background:url(../images/header-sprites11.png);
+    margin:15px 0;
+    display:inline-block;
+}
+header img{
+    width:64px;
+    height:45px;
+    margin-bottom:10px;
+}
+header span{
+    display:inline-block;
+    width:26px;
+    height:26px;
+}
+header > a{
+    color:#ff8a00;
+    float:right;
+    margin:0 5px;
+}
+header > a:hover{
+    color:#ccc;
+    text-decoration:underline;
+}
+.i1{
+
+    background:url(../images/header-sprites11.png) 0 -50px;
+    margin-bottom:20px;
+}
+.i1:hover{
+    background:url(../images/header-sprites11.png) 0 -80px;
+}
+.i2{
+
+    background:url(../images/header-sprites11.png) -30px -50px;
+    margin-bottom:20px;
+}
+.i2:hover{
+    background:url(../images/header-sprites11.png) -30px -80px;
+}
+.i3{
+
+    background:url(../images/header-sprites11.png) 0 -165px;
+    margin-bottom:20px;
+}
+.i3:hover{
+    background:url(../images/header-sprites11.png) -30px -165px;
+}
+.shadow{
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid #d6d6d6;
+    background-color: rgba(0,0,0,.06);
+}
+
+.container{
+    width:980px;
+    margin:30px auto 60px;
+    color: #666;
+}
+.content{
+    float: left;
+    width:850px;
+    height:602px;
+    /*background: url(../images/bn_bg2.gif);*/
+    position: relative;
+}
+.bg{
+    float: left;
+    width:850px;
+    height:407px;
+    background: url(../images/bn_bg2.gif) no-repeat;
+}
+.pic{
+    width:205px;
+    height:423px;
+    background: url(../images/app_n_sprite5.gif);
+    /*padding: 63px 17px 59px 17px;*/
+    position: absolute;
+    top:85px;
+    left:30px;
+}
+.pic ul{
+    position: absolute;
+    top:63px;
+    left:17px;
+}
+.num{
+    position: absolute;
+    top:518px;
+    left:101px;
+}
+.num li{
+    width:15px;
+    height:15px;
+    background: #ccc;
+    float: left;
+    margin:10px 4px;
+    border-radius:50%;
+}
+.code{
+    position: absolute;
+    top:558px;
+    left:81px;
+    text-align: center;
+}
+.menu{
+    width:110px;
+    height:407px;
+    float: right;
+}
+.menu li{
+    margin:10px 28px;
+}
+li.on{
+    background:url(../images/app_n_sprite5.gif) no-repeat -225px -163px;
+    padding:9px 7px 9px 28px;
+    margin:0 5px 9px 0;
+}
+
+.clear{
+    zoom:1;
+}
+.clear:after{
+    clear:both;
+    content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+.flashs{
+    width:600px;
+    height:407px;
+    background: url(../images/glbn_bg2.png) no-repeat;
+    position: absolute;
+    top:0;
+    left:250px;
+}
+.info{
+    width:600px;
+    height:60px;
+    position: absolute;
+    top:430px;
+    left:260px;
+}
+.info li{
+    margin:0 6px;
+    width:125px;
+    float: left;
+    height:42px;
+    background: url(../images/app_n_sprite5.gif) no-repeat;
+}
+li.btn1{
+    background-position: -225px -64px;
+}
+li.btn2{
+    background-position: -384px -64px;
+}
+li.btn3{
+    background-position: -545px -64px;
+}
+li.btn4{
+    width:176px;
+    background-position: -705px -64px;
+}
+li.btn1:hover{
+    background-position: -225px 0;
+}
+li.btn2:hover{
+    background-position: -384px 0;
+}
+li.btn3:hover{
+    background-position: -545px 0;
+}
+li.btn4:hover{
+    width:176px;
+    background-position: -705px 0;
+}
+.info h2{
+    margin:20px 10px;
+}
+.info p{
+    line-height:30px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+    background: #3c3c3c;
+    color: #c2c2c2;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    padding-top:20px;
+    margin-top:130px;
+}
+footer p{
+    line-height:35px;
+}

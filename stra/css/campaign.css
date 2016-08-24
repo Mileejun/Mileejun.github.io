@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 微软雅黑;
+}
+ul{
+	list-style: none;
+	overflow: hidden;
+}
+ul li{
+	float: left;
+	margin: 0 10px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+header{
+	width: 94%;
+	height: 84px;
+	line-height: 84px;
+	background: #fff;
+	opacity: 0.8;
+	padding: 0 3%;
+	overflow: hidden;
+	font-size: 1vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header a:hover{
+	color: #ccc;
+}
+.logo{
+	width: 176px;
+	float: left;
+	line-height: 84px;
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 10px;
+}
+
+.container{
+	width: 94%;
+	padding: 0 3%;
+	margin-top: 84px;
+	margin-bottom: 84px;
+}
+.container img{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 60px;
+}
+.guanzhu{
+	height: 57px;
+	width: 344px;
+	margin:0 auto;
+}
+.guanzhu a{
+	display: inline-block;
+	width: 57px;
+	height: 57px;
+	margin:0 13px;
+}
+.guanzhu a:nth-child(1){
+	background: url(../images/sprite.png);
+	background-position: -18px -164px;
+}
+.guanzhu a:nth-child(2){
+	background: url(../images/sprite.png);
+	background-position: -93px -164px;
+}
+.guanzhu a:nth-child(3){
+	background: url(../images/sprite.png);
+	background-position: -167px -164px;
+}
+.guanzhu a:nth-child(4){
+	background: url(../images/sprite.png);
+	background-position: -241px -164px;
+}
+.back{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	background:transparent url("../images/sprite.png") no-repeat 33.77% 35.385%;
+}
+.back:hover{
+	background-position: 42.131% 35.385%;
+}
+footer{
+	width: 94%;
+	padding: 0 3%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	background: #fff;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer ul:nth-child(1){
+	float: left;
+}
+footer ul:nth-child(2){
+	float: right;
+}
+footer a:hover{
+	color: #ccc;
+}

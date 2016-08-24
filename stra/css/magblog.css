@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 微软雅黑;
+}
+header{
+	width: 94%;
+	height: 84px;
+	line-height: 84px;
+	background: #fff;
+	opacity: 0.8;
+	padding: 0 3%;
+	overflow: hidden;
+	font-size: 1vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+}
+.logo{
+	width: 176px;
+	float: left;
+	line-height: 84px;
+	margin-top: 20px;
+	margin-right: 24%;
+	margin-left: 10px;
+}
+.mblogo{
+	text-align: center;
+}
+#container{
+	position: relative;
+}
+.box{
+	padding: 5px;
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+.box_img{
+	/*border: 5px solid hotpink;*/
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #fff;
+	cursor: pointer;
+	transition: .9s;
+}
+.box_img:hover{
+	transform: scale(1.05);
+}
+.box img{
+	width: 300px;
+	height: auto;
+}
+.box h3{
+	margin:10px 0; 
+}
+.box p{
+	margin-top: -5px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+footer{
+	width: 94%;
+	padding: 0 3%;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #000;
+}

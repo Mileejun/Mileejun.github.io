@@ -1,0 +1,325 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:微软雅黑;
+}
+body{
+    background: #f2f2f2;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #333;
+}
+ul{
+    list-style: none;
+}
+
+.clear{
+    zoom:1;
+}
+.clear:after{
+    clear:both;
+    content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+
+/*头部*/
+header{
+    width:100%;
+    min-width: 1240px;
+}
+
+/*导航栏*/
+nav{
+    width: 100%;
+    min-width: 1240px;
+    height: 45px;
+    line-height: 41px;
+    /*background: #050505;*/
+    background: url(../images/topbar_bg.png) repeat-x;
+    /*overflow: hidden;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+/*导航栏左侧*/
+nav > img{
+    float: left;
+}
+nav > ul{
+    /*overflow: hidden;*/
+    float: left;
+}
+nav > ul li{
+    float:left;
+    padding: 0 10px;
+    position: relative;
+}
+nav > ul li a{
+    display: block;
+}
+.menu span{
+    float: left;
+}
+.triple{
+    display: block;
+    float: right;
+    width: 7px;
+    height: 4px;
+    margin:19px 0 0 3px;
+    background: url(../images/topbar_sprite2.png) -223px -18px;
+}
+
+nav > ul li:hover .triple{
+    background: url(../images/topbar_sprite2.png) -231px -18px;
+}
+nav > ul li:hover{
+    background: #050505;
+}
+nav a{
+    color: #ccc;
+    font-size: 14px;
+}
+
+/*下拉菜单*/
+nav li div{
+    background: #050505;
+    position: absolute;
+    left: 0;
+    top: 41px;
+    width: 80px;
+    z-index: 100;
+    /*padding-bottom: 6px;*/
+    /*opacity: 0;*/
+    display: none;
+    background: rgba(22, 22, 22, 0.9);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /*transition: opacity .25s ease .1s;*/
+}
+nav li div a{
+    color: #ccc;
+    display: block;
+    height: 33px;
+    width: 71px;
+    line-height: 33px;
+    padding-left: 9px;
+    background: #161616;
+    /*text-align: center;*/
+    /*transition: height .25s ease .1s;*/
+}
+.fillet{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /*margin-bottom: 6px;
+    padding-bottom: 6px;*/
+
+}
+nav li:hover >a{
+    color: #cf9;
+}
+
+nav li div a:hover{
+    background: #690;
+    color: #fff;
+}
+nav li div a:hover div{
+    background: #690;
+    color: #fff;
+}
+nav li div a:hover .fillet{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/*导航栏右侧*/
+nav form{
+    width: 160px;
+    margin-right: 97px;
+    float: right;
+    position: relative;
+}
+nav input{
+    float:right;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    padding: 3px 25px 3px 10px;
+    background: #ccc;
+    color: #898989;
+    width: 125px;
+    height: 20px;
+}
+nav button{
+    background:url(../images/topbar_sprite2.png) -223px -1px;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    width: 16px;
+    height: 17px;
+    border: none;
+}
+nav form div{
+    width: 160px;
+    display: none;
+    margin-top: 41px;
+    background:rgba(22, 22, 22, 0.8);
+}
+nav form div a{
+    display: block;
+    padding-left: 7px;
+    line-height: 35px;
+}
+nav form div a:hover{
+    background: #666;
+}
+nav span{
+    float:right;
+    margin: 0 10px;
+}
+nav span a{
+    margin:0 10px;
+}
+nav span a:hover{
+    color: #cf9;
+}
+
+.container{
+    width:1200px;
+    margin:80px auto 50px;
+}
+.list{
+    margin:40px 0 10px;
+}
+.list a{
+    margin-left:20px;
+    float: right;
+}
+.pic{
+    position: relative;
+}
+.pic li{
+    position: absolute;
+}
+.banner{
+    margin-bottom:20px;
+    height:421px;
+}
+.news{
+    float: left;
+    width:351px;
+    margin-right:48px;
+}
+.news li{
+    width:351px;
+    height:120px;
+    margin:27px 0;
+}
+.news img{
+    width:120px;
+    height:120px;
+    float: left;
+    margin-right:15px;
+}
+.news h4{
+    margin:10px 0;
+    font-size:14px;
+    font-weight:normal;
+}
+.content h1{
+    width:100%;
+    height:37px;
+    line-height:37px;
+    font-size:20px;
+    font-weight:normal;
+    border-bottom:1px solid #e2e2e2;
+}
+
+.chart{
+    float: right;
+    width:825px;
+    margin-right:-25px;
+}
+.chart h1 span,.news li p{
+    font-size:14px;
+    color: #999;
+    line-height:24px;
+}
+.chart >ul > li{
+    width:250px;
+    background: #f6f6f6;
+    float: left;
+    margin-right:25px;
+    margin-top:20px;
+}
+.chart li > img{
+    width:100%;
+}
+.chart .info{
+    width:228px;
+    margin:0 auto;
+    padding:10px 0;
+    border-bottom:1px solid #d0d0d0;
+}
+.chart .info p{
+    line-height:30px;
+    font-size:14px;
+}
+.buy{
+    padding:10px;
+}
+.buy span{
+    display: inline-block;
+    height:78px;
+    line-height:57px;
+    float: left;
+}
+.buy li{
+    height:78px;
+}
+.buy p{
+    margin:10px 0;
+}
+
+.buy li > img{
+    width:58px;
+    display: inline-block;
+    border-radius:50%;
+    margin:-1px 14px;
+    float: left;
+}
+
+/*尾部*/
+footer{
+    width: 100%;
+    min-width: 1240px;
+    height: 150px;
+    color: #999;
+    text-align: center;
+    line-height: 22px;
+    background: #fff;
+}
+footer p:first-child{
+    font-size: 14px;
+    color: #666;
+    padding: 35px 0 20px;
+}
+footer p a{
+    color: #666;
+}
+
+footer a{
+    margin: 10px;
+}
+footer p{
+    font-size: 12px;
+}
+footer a:hover{
+    color:#690;
+}
